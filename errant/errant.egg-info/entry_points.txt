@@ -1,0 +1,4 @@
+[console_scripts]
+errant_compare = errant.commands.compare_m2:main
+errant_m2 = errant.commands.m2_to_m2:main
+errant_parallel = errant.commands.parallel_to_m2:main

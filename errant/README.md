@@ -18,7 +18,7 @@ Inspired by ERRANT, FERRANTI is designed to annotate parallel English sentences 
 **Original**: Greg needs to stay after hours . Betsy can ' t pick him up .  
 **Corrected**: Greg needs to stay after hours . Betsy can ' t pick Johnny up .  
 **Output M2**:  
-S Greg needs to stay after hours . Betsy can ' t pick him up .
+S Greg needs to stay after hours . Betsy can ' t pick him up .  
 A 12 13|||R:CorefE|||Johnny|||REQUIRED|||-NONE-|||0
 
 For more information, please see the repository of ERRANT.
@@ -73,3 +73,6 @@ Three main commands are provided with FERRANTI: `errant_parallel`, `errant_m2` a
 
 All these scripts also have additional advanced command line options which can be displayed using the `-h` flag. 
 
+## Script
+
+It may be more convenient to use `compare_m2.sh` and `parallel_m2.sh` to evaluate.
